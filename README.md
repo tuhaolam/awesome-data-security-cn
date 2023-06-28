@@ -33,6 +33,7 @@
 ***
 - [基于关键词、数据字典和正则表达式敏感数据识别方法](https://cn-sec.com/archives/1364844.html)
 - [好大夫数据安全分类分级实践探索](https://www.freebuf.com/articles/database/349036.html)：一种低成本、高效落地数据分级分类的思路
+- [大规模数据安全分类系统架构实践](https://mp.weixin.qq.com/s/mRmDEuDKJSJ_xrYyBMn4Dw)：美团分类分级系统建设，结合了机器学习和传统指纹技术对所有数据进行分类
 
 ### 认证与授权
 ***
@@ -44,11 +45,14 @@
 - [CASB：一场镜花水月还是云安全的未来？](https://www.sec-un.org/casb：-一场镜花水月还是云安全的未来？/)
 - [常用业务场景下的密码技术应用参考流程](https://blog.csdn.net/weixin_45303938/article/details/107523306)
 - [万字详解数据安全关键技术之数据脱敏](https://www.freebuf.com/articles/database/348732.html)
+- [货拉拉数据加密治理实践](https://mp.weixin.qq.com/s/hDs7vMlYrLhRuA_BU7yq0g)
 
 ### 数据防泄漏
 ***
 - [GCP DLP](https://cloud.google.com/dlp/docs?hl=zh-cn)
 - [企业云原生数据防泄漏（DLP）架构与运营实践指南](https://mp.weixin.qq.com/s/3MPdhLw12L9GLt_LDoswvQ)：万字长文，主要是思路和解决方案的列举
+- [奇安信：数据泄露典型判例分析报告](https://www.qianxin.com/threat/reportdetail?report_id=37)：根据司法案例判断内部人员泄露占数据泄露角色分布的80%
+- [南方都市报：超半数个人信息由行业“内鬼”泄露](https://epaper.oeeee.com/epaper/A/html/2021-11/01/content_22788.htm)：根据司法案例判断“内鬼”贩卖个人信息最多
 
 ### 隐私计算
 ***
@@ -87,6 +91,7 @@
 ***
 - [信息安全知识库vipread](https://vipread.com/library/tags/数据安全)：国内各种公开分享基本都收纳进来了
 - [sec-wiki](https://www.sec-wiki.com/news/search?wd=数据安全)：每周一推送
+- [awesome-security-weixin-official-accounts](https://github.com/DropsOfZut/awesome-security-weixin-official-accounts#数据安全类)：数据安全类微信公众号
 
 ### 个人成长
 ***
