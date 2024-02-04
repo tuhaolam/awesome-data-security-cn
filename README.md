@@ -1,3 +1,5 @@
+[TOC]
+
 # awesome-data-security-cn
 数据安全方法论与实践
 
@@ -18,16 +20,21 @@
 - [数据安全治理能力评估方法](https://www.isc.org.cn/profile/material/2021/11/11/634610a0-fb9c-45c0-8372-7932cbf3c628.pdf)：中国互联网协会发布
 - [awesome-zero-trust-cn](https://github.com/tuhaolam/awesome-zero-trust-cn)：聚焦国内零信任方法论与实践
 - [awesome-cryptography](https://github.com/sobolevn/awesome-cryptography): A curated list of cryptography resources and links.
+- [基于数据安全的沙盘推演体系](https://mp.weixin.qq.com/s/ldqIPYnG235syNVzk9kvNg)：框架上与传统安全沙盘推演流程相似，重点是在战技、战术与战略三个层面围绕数据安全CIA特性展开
+- [基于数据安全网关的数据安全防护体系研究](https://mp.weixin.qq.com/s/0CqgircMQ_KquFaPWVeHaQ)：本质上是API网关，但融合了数据安全全场景，覆盖数据采集与共享等数据全生命周期，并集成常用的安全管控手段
+- [腾讯安全发布的数据安全治理与实践白皮书](https://cloud.tencent.com/developer/article/2298382)：提供的三个案例来自腾讯云、腾讯游戏、微信三大核心业务，在框架性和实践性上有一定参考价值
 
 #### 企业实践
 - [数据安全的第一道坎](https://www.sec-un.org/数据安全的第一道坎/)：平安银行分享
 - [data-security-google-cloud](https://cloud.google.com/blog/topics/developers-practitioners/data-security-google-cloud)：GCP数据安全白皮书
 - [Google数据安全自动化建设之路（白皮书）](https://zhuanlan.zhihu.com/p/564689012)：GCP数据安全国内解读
-- [跟着大公司学数据安全架构之AWS&Google](https://www.freebuf.com/articles/network/171547.html)
+- [跟着大公司学数据安全架构之AWS&Google](https://www.freebuf.com/articles/network/171547.html)：介绍aws、gcp的数据安全架构
 - [互联网企业数据安全体系建设](https://tech.meituan.com/2018/05/24/data-security-system-construction.html)：美团安全负责人分享
 - [将军令：数据安全平台建设实践](https://tech.meituan.com/2019/02/14/data-security-platform-construction-practice-jiangjunling.html)：美团数据安全平台分享
 - [大型互联网公司数据安全实践](https://www.anquanke.com/post/id/190093)：美团数据安全负责人分享
 - [京东数据安全的审计与治理](https://blog.csdn.net/weixin_45727359/article/details/126132613)：基于DCAP（Data-Centric Audit and Protection），关注京东内部全面推进的11个改造项
+- [离职期员工的信息安全管控实践](https://mp.weixin.qq.com/s/hIIyFbx562WREErC9Ygw0Q)：权限回收、异常行为监控预警、继续教育与工作申请审批
+
 
 ### 数据识别与分类分级
 ***
@@ -80,6 +87,7 @@
 - [数据泄露典型判例分析报告](https://www.qianxin.com/threat/reportdetail?report_id=37)：奇安信出品，数据相当具有参考价值
 - [没有BAT3级的应急响应中心，互联网公司该如何应对数据泄露事件？](https://cloud.tencent.com/developer/article/1038728)
 - [关于数据泄密事件排查的注意事项](https://toutiao.io/posts/3vfm6a5/preview)：梳理的很清晰
+- [基于数据安全的应急响应体系建设](https://mp.weixin.qq.com/s/7mlBtdB9JAfTDGvjwyFN3g)：参照PDCERF应急响应模型，结合数据安全特点，形成准备、检测、抑制、根除、恢复与总结六个阶段，并提出量化的数据安全事件分级方案
 
 ### 书籍
 ***
