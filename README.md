@@ -7,9 +7,11 @@
 只讲思路，不能开箱即用
 ### 规范标准
 ***
-- [DSMM数据安全能力成熟度模型](https://www.dsmm.com.cn/)：国标GB∕T 37988-2019 信息安全技术 数据安全能力成熟度模型
+- [DSMM数据安全能力成熟度模型](https://www.dsmm.com.cn/)：国标GB∕T 37988-2019 信息安全技术 数据安全能力成熟度模型，比较有业界影响力，而且提供的方案相对具备可操作性，尽管落地效果以及规则明确性上存在争议
 - [DSM数据安全认证](https://blog.csdn.net/Chaincomp/article/details/125368036)：依据国标《GB/T 41479-2022 信息安全技术 网络数据处理安全要求》实施认证
-- [数据安全治理应参考的国家标准](https://www.secrss.com/articles/49326)
+- [数据安全治理应参考的国家标准](https://www.secrss.com/articles/49326)：包含[国标：信息安全技术 网络数据处理安全要求](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=3E1EA8F7F96CB0CCCD8C98BE537E3A66)和上面的数据安全能力成熟度模型
+- [一图读懂国家标准《数据安全技术 数据分类分级规则》](https://www.secrss.com/articles/64727)：国家标准GB/T 43697-2024《数据安全技术 数据分类分级规则》发布，进一步明确数据分类分级落地细节
+
 
 ### 建设思路
 ***
@@ -23,6 +25,9 @@
 - [基于数据安全的沙盘推演体系](https://mp.weixin.qq.com/s/ldqIPYnG235syNVzk9kvNg)：框架上与传统安全沙盘推演流程相似，重点是在战技、战术与战略三个层面围绕数据安全CIA特性展开
 - [基于数据安全网关的数据安全防护体系研究](https://mp.weixin.qq.com/s/0CqgircMQ_KquFaPWVeHaQ)：本质上是API网关，但融合了数据安全全场景，覆盖数据采集与共享等数据全生命周期，并集成常用的安全管控手段
 - [腾讯安全发布的数据安全治理与实践白皮书](https://cloud.tencent.com/developer/article/2298382)：提供的三个案例来自腾讯云、腾讯游戏、微信三大核心业务，在框架性和实践性上有一定参考价值
+- [data-risk-management](https://www.datagrail.io/blog/data-privacy/data-risk-management/)：提供了相对宽泛但覆盖面较广的数据风险管理的最佳实践
+- [数据安全治理：构建与实施的关键要素及总体架构](https://blog.csdn.net/weixin_52069830/article/details/136220675)：相对体系化的介绍了数据安全治理的思路和技术路径，深度有限
+- [企业数据安全风险管理指南](https://c-csa.cn/research/results-detail/i-1869/)：CSA组织编写
 
 #### 企业实践
 - [数据安全的第一道坎](https://www.sec-un.org/数据安全的第一道坎/)：平安银行分享
@@ -38,7 +43,6 @@
 
 ### 数据识别与分类分级
 ***
-- [基于关键词、数据字典和正则表达式敏感数据识别方法](https://cn-sec.com/archives/1364844.html)
 - [好大夫数据安全分类分级实践探索](https://www.freebuf.com/articles/database/349036.html)：一种低成本、高效落地数据分级分类的思路
 - [大规模数据安全分类系统架构实践](https://mp.weixin.qq.com/s/mRmDEuDKJSJ_xrYyBMn4Dw)：美团分类分级系统建设，结合了机器学习和传统指纹技术对所有数据进行分类
 
@@ -74,12 +78,26 @@
 - [UEBA资料汇总](https://ixyzero.com/blog/archives/4103.html)：内容比较散乱，亮点在于资料比较丰富
 - [数据库审计产品进化史](https://www.sec-un.org/数据库审计产品进化史/)：对数据库审计这一传统领域的不错梳理
 
+
+### 数据安全风险评估
+***
+- [国标：信息安全技术 数据安全风险评估方法](https://www.tc260.org.cn/file/2023-08-22/9702c85b-9c43-48f4-ac36-23021652f7be.pdf)：国家市场监督总局和国家标准化委员会发布
+- [信安标：网络数据安全风险评估实施指引](https://www.tc260.org.cn/upload/2023-05-29/1685346726882022691.pdf)：数据安全风险识别流程与典型数据安全风险列表可以参考，与上述国标在具体操作上一脉相承
+- [数据安全风险评估实施方法](https://www.cnblogs.com/chenyinzhijin/p/15161669.html)：数据威胁分类识别表可以参考
+- [基于数据生命周期进行安全风险评估](https://blog.51cto.com/u_9652359/3244428)：与常规的风险评估大同小异
+- [基于场景进行安全风险评估](https://blog.51cto.com/u_9652359/3520569)：类似checklist，实际上铺开的工作量很大，只能围绕关键场景、关键风险开展评估
+- [数据安全风险枚举DSRE](https://dsre.jd.army/#/)：具体规则见[risks列表](https://github.com/JDArmy/DSRE/blob/main/src/DSRE/risks.json)
+- [数据安全风险监测指标思考](https://blog.51cto.com/u_9652359/3862071)：比较前沿的思考，已经深入到指标建设的维度
+- [深圳市公共数据安全评估方法](http://amr.sz.gov.cn/xxgk/qt/tzgg/content/post_11257720.html)：深圳果然是改革开发前沿阵地，已率先推出了非常详细的评估方法
+
+
 ### 数据检测与响应
 ***
 #### 产品
 - [Cyberhaven DDR](https://venturebeat.com/security/cyberhaven-insider-threats/)及其[工作原理](https://www.cyberhaven.com/how-it-works/)介绍
 - [Dig Security DDR](https://www.dig.security/product)及其[工作原理](https://www.dig.security/post/an-introduction-to-data-detection-and-response-ddr)介绍
 - [青骓DDR](https://zhuanlan.zhihu.com/p/588632074)：国内为数不多的商业产品
+- [零零信安提供的数据泄露日报](https://0.zone/daily)：扫描全网数据泄露情报，无法定制
 
 #### 数据泄露事件应急
 - [数据泄漏应急响应思路](https://blog.csdn.net/sycamorelg/article/details/123516930)：这篇文章最后也被写入奇安信的书里
@@ -95,7 +113,7 @@
 - [数据安全领域指南](https://weread.qq.com/web/bookDetail/917323f0813ab7713g018417)：很详细的介绍了数据安全整体体系
 - [微信读书书单：Awesome-Data-Security](https://weread.qq.com/)：作者维护的一份书单
 
-### 分享
+### 知识库
 ***
 - [信息安全知识库vipread](https://vipread.com/library/tags/数据安全)：国内各种公开分享基本都收纳进来了
 - [sec-wiki](https://www.sec-wiki.com/news/search?wd=数据安全)：每周一推送
@@ -106,6 +124,7 @@
 - [数据安全人员能力思考](https://iami.xyz/DSMM-Date-Security/)
 - [CSDP数据安全认证专家](https://c-csa.cn/training/course-detail/i-1702.html)
 - [数据安全工程技术人员国家职业标准](http://www.mohrss.gov.cn/xxgk2020/fdzdgknr/jcgk/zqyj/202301/t20230117_493635.html)
+- [数据安全评估师（CCRC-DSA）](https://www.isccc.gov.cn/zxyw/shy/jcypx/sjaqpgs/2023/909487.shtml)：首先声明没有推荐去参与这个认证的含义，而是提供一个渠道了解将数据安全评估作为一个职业，可能要具备的能力
 - [组织机构的数据安全人员能力要求](https://www.secrss.com/articles/8893)
 - [数据安全人才强基计划](https://www.isc.org.cn/article/12511724820754432.html)
 
@@ -115,8 +134,10 @@
 ***
 - [godlp](https://github.com/bytedance/godlp): 字节开源的敏感数据识别与脱敏工具
 - [d18n](https://github.com/LianjiaTech/d18n): 链家开源的敏感数据识别与脱敏工具
+- [openDLP](https://github.com/hitsz-ids/openDLP): 哈工大开源的敏感数据识别与脱敏工具
 - [DataDefender](https://github.com/armenak/DataDefender): Data Discovery and Anonymization toolkit
-- [大数据安全--敏感数据识别和分级打标](https://blog.csdn.net/u014779378/article/details/103035474)
+- [大数据安全--敏感数据识别和分级打标](https://blog.csdn.net/u014779378/article/details/103035474)：提供数据识别通用规则
+- [Bearer](https://github.com/bearer/bearer)：Code security scanning tool (SAST) to discover, filter and prioritize security and privacy risks.
 
 #### 数据加密与脱敏
 - [maskdata](https://github.com/Sumukha1496/maskdata): a Node.js module to mask various kinds of data.
