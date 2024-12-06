@@ -53,7 +53,7 @@
 
 ### 数据加密与脱敏
 ***
-- [CASB：一场镜花水月还是云安全的未来？](https://www.sec-un.org/casb：-一场镜花水月还是云安全的未来？/)
+- [CASB：一场镜花水月还是云安全的未来？](https://www.secrss.com/articles/3333)
 - [常用业务场景下的密码技术应用参考流程](https://blog.csdn.net/weixin_45303938/article/details/107523306)
 - [万字详解数据安全关键技术之数据脱敏](https://www.freebuf.com/articles/database/348732.html)
 - [货拉拉数据加密治理实践](https://mp.weixin.qq.com/s/hDs7vMlYrLhRuA_BU7yq0g)
